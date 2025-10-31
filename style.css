@@ -650,7 +650,7 @@ section {
     transition: 0.3s;
 }
 
-/* 📱 For Mobile Screens */
+
 @media (max-width: 480px) {
     html, body {
         overflow-x: hidden;
@@ -688,7 +688,6 @@ section {
         font-size: 14px;
     }
 
-    /* About Section */
     .about-container {
         flex-direction: column;
         align-items: center;
@@ -709,7 +708,6 @@ section {
         text-align: center;
     }
 
-    /* Projects Section - side scroll effect */
     .project-container {
         flex-wrap: nowrap;
         overflow-x: auto;
@@ -736,7 +734,7 @@ section {
         border-radius: 10px;
     }
 
-    /* Experience Section */
+
     #Experience {
         flex-direction: column;
         align-items: center;
@@ -756,7 +754,7 @@ section {
         margin-bottom: 10px;
     }
 
-    /* Contact Section */
+  
     .contact-container {
         flex-direction: column;
         align-items: center;
@@ -768,7 +766,6 @@ section {
     }
 }
 
-/* 💻 For Tablets */
 @media (max-width: 780px) {
     html, body {
         overflow-x: hidden;
@@ -791,7 +788,7 @@ section {
         width: 100%;
     }
 
-    /* Projects side scroll */
+  
     .project-container {
         flex-wrap: nowrap;
         overflow-x: auto;
@@ -807,7 +804,7 @@ section {
         height: 200px;
     }
 
-    /* Experience Section */
+ 
     #Experience {
         flex-direction: column;
         text-align: center;
