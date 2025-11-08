@@ -313,7 +313,8 @@ section {
 }
 
 #Project {
-    padding: 10px 100px;
+    padding: 50px 100px;
+    height: 130vh;
 }
 
 .project-container {
@@ -333,6 +334,7 @@ section {
     letter-spacing: 1px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
     transition: all 0.4s ease-in-out;
+    padding: 30px 0px;
 }
 
 .project-container a:nth-child(1) {
@@ -346,15 +348,21 @@ section {
 }
 
 .project-container a:nth-child(3) {
-    background-image: url('https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=600');
+    background-image: url('./chatApp.png');
+     background-size: cover;
+    background-position: 80%;
 }
 
 .project-container a:nth-child(4) {
-    background-image: url('https://images.unsplash.com/photo-1504691342899-4d92b50853e1?q=80&w=600');
+    background-image: url('./movie-search-img.png');
+      
+    background-position: 10%;
 }
 
 .project-container a:nth-child(5) {
-    background-image: url('https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=600');
+    background-image: url('./alarm-app-img.png');
+       background-size:cover;
+    background-position: 20%;
 }
 
 .project-container a:nth-child(6) {
@@ -371,7 +379,6 @@ section {
     justify-content: center;
     align-items: end;
     background-size: cover;
-    overflow: hidden;
     color: white;
     font-size: 20px;
     text-decoration: none;
@@ -398,6 +405,18 @@ section {
     opacity: 1;
     transform: translateY(0);
     animation: projectfun 1s ease forwards;
+}
+
+
+.project-container a div{
+    text-align: center;
+    height: 60px;
+    margin-bottom: -70px;
+    text-transform:uppercase;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 
